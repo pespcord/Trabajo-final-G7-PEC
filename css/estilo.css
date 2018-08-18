@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
 
 .menu-ico {
@@ -39,9 +40,15 @@ a.menu-ico {
 }
 
 /*estilos seccion slide*/
+.beplan-slide {
+	padding: 0;
+	text-align: center;
+}
+.beplan-slide-textos {
+	padding-top: 23rem;
+}
 .carrusel-foto-1 {
 	background-image: url(../img/beplan-slide1.jpg);
-
 }
 .carrusel-foto-2 {
 	background-image: url(../img/beplan-slide1.jpg);
@@ -54,6 +61,16 @@ a.menu-ico {
 	background-size: cover;
 	width: 100%;
 }
+.logo-beplan {
+	width: 20%;
+}
 .padding0 {
 	padding: 0;
+}
+h1.titulos-beplan {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 3em;
+
 }
