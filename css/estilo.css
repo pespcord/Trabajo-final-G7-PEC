@@ -7,9 +7,53 @@
   width: 80px;
   background-color: #252525;
   height: 100vh;
+  position: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.menu-ico {
+	display: flex;
+	flex-direction: column;
+}
 .fas.fa-bars {
 	color: #fff;
 	font-size: 2em;
+	text-decoration: none;
+}
+.fas.fa-heart{
+	color: #67d2e8;
+	font-size: 1em;
+	margin-bottom: 0.5em;
+	text-decoration: none;
+}
+.fas.fa-bars:hover {
+	color:#7493e8;
+	text-decoration: none;
+	transition: 0.5s;
+}
+a.menu-ico {
+	text-decoration: none;
+}
+
+/*estilos seccion slide*/
+.carrusel-foto-1 {
+	background-image: url(../img/beplan-slide1.jpg);
+
+}
+.carrusel-foto-2 {
+	background-image: url(../img/beplan-slide1.jpg);
+}
+.carrusel-foto-3 {
+	background-image: url(../img/beplan-slide1.jpg);
+}
+.carrusel-foto-1, .carrusel-foto-2, .carrusel-foto-3 {
+	min-height: 600px;
+	background-size: cover;
+	width: 100%;
+}
+.padding0 {
+	padding: 0;
 }
