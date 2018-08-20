@@ -1,7 +1,5 @@
 
-.beplan-slide {
-
-}
+/*menu*/
 
 .menu_beplan {
   width: 80px;
@@ -34,12 +32,14 @@
 	color:#7493e8;
 	text-decoration: none;
 	transition: 0.5s;
+	transition-delay: 0.5s;
 }
 a.menu-ico {
 	text-decoration: none;
 }
 
-/*estilos seccion slide*/
+/*seccion slide*/
+
 .beplan-slide {
 	padding: 0;
 	text-align: center;
@@ -69,13 +69,94 @@ a.menu-ico {
 .padding0 {
 	padding: 0;
 }
+
 h1.titulos-beplan {
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 3em;
 	border: 1px solid #67d2e8;
     padding: 30px;
     background-color: rgba(103, 210, 232, 0.16);
+}
 
+/*seccion1 Service*/
+.beplan-service{
+	height: 200px;
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.beplan-section-tit{
+	padding: 40px 0;
+}	
+
+.beplan-section-tit h1{
+    text-align: center;
+    color: #333;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 2.5em;
+}
+.beplan-section-tit p {
+	font-size: 1.5em;
+	text-align: center;
+	color: #999;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+.beplan-service img {
+	width: 150px;
+}
+	.corporativo {
+		background-color: #84ccff;
+	}
+	.digital {
+		background-color: #7493e8;
+	}
+	.editorial {
+		background-color: #67d2e8;
+	}
+
+.beplan-service-button :hover{
+	text-decoration: none;
+	transition:1s;
+    background-color: rgba(116,147,232,0.5);
+}
+.beplan-service h2 {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 0;
+	margin:0;
+
+}
+a:hover {
+	text-decoration: none;
+}
+.beplan-service-panel {
+	background-color: #eaeaea;
+	padding: 34px 0 0 56px;
+    line-height: 39px;
+}
+.triangulo{
+	 width: 0;
+     height: 0;
+     border-right: 30px solid transparent;
+     border-top: 30px solid transparent;
+     border-left: 30px solid transparent;
+     border-bottom: 30px solid #eaeaea;
+     margin: 0 auto;
+}
+.beplan-service-panel ul { 
+    list-style-image: url("../icons/bullet.svg");
+}
+.beplan-service-panel ul li {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 1.3em;
 }
