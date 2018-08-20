@@ -2,9 +2,9 @@
 /*menu*/
 
 .menu_beplan {
-  width: 80px;
+  width: 100px;
   background-color: #252525;
-  height: 100vh;
+  height: 20vh;
   position: fixed;
   text-align: center;
   display: flex;
@@ -159,4 +159,21 @@ a:hover {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	font-size: 1.3em;
+}
+.beplan-section {
+	 padding: 0 0 60px 0;
+}
+.beplan-section-color {
+	background-color: #f7f4f4;
+	padding: 0 0 60px 0;
+}
+.beplan-section-color2 {
+	background-color: #dde6ff;
+	padding: 0 0 60px 0;
+}
+.beplan-section-form {
+	background-image: url('../img/contacto-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+	height: auto;
 }
