@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Beplan Estudio</title>
 	<!-- Latest compiled and minified CSS -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -14,16 +15,41 @@
 
 </head>
 
-	<body>
-		<nav class="container menu_beplan">
-				<a href="" class="menu-ico">
-					<i class="fas fa-heart"></i>
+	<body class="container-fuid">
+		<!-- menu -->
+
+		<nav class="menu_beplan">
+		  <div class="container-fluid">
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle menu-ico flex" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> 					
+		          	<i class="fas fa-heart"></i>
 					<i class="fas fa-bars"></i>
 				</a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">One more separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		      
+		      
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
 		</nav>
-		<header class="container-fluid beplan-slide row">	
+
+<!-- slides -->
+
+		<header class="container-fluid beplan-slide">	
 			<div class="padding0 row">
-					<div class="col-sm-12 seccion2 padding0">
+			<div class="col-sm-12 seccion2 padding0">
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
 			  <ol class="carousel-indicators">
@@ -69,7 +95,7 @@
 
 		<!-- seccion1 service -->
 		<section class="beplan-section row">
-			<div class="beplan-section-tit col-md-8 col-md-offset-2">
+			<div class="beplan-section-tit col-md-8 col-md-offset-2 padding0">
 				<h1>¿Qué necesitas?</h1>
 				<p>En <b>Beplan</b> buscamos entregar un servicio completo que se ajuste a las necesidades de tu empresa.</p>
 			</div>
@@ -77,7 +103,7 @@
 				<!-- colapsable -->
 				<div id="accordion" role="tablist" aria-multiselectable="true">
 					<!-- colapsable #1 corporativo -->
-					<div class="col-md-3 col-md-offset-2">
+					<div class="col-md-3 col-md-offset-2 padding0">
 						<div role="tab" id="headingOne" class="beplan-service-button">     
 							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 								<div class="beplan-service corporativo ">
@@ -101,7 +127,7 @@
 						</div>
 					</div>
 					<!-- colapsable #3 digital -->
-					<div class="col-md-3">
+					<div class="col-md-3 padding0">
 						<div  role="tab" id="headingTwo" class="beplan-service-button">
 							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 							<div class="beplan-service digital ">
@@ -125,7 +151,7 @@
 						</div>
 					</div>
 					<!-- colapsable #3 Editorial -->
-					<div class="col-md-3">
+					<div class="col-md-3 padding0">
 						<div role="tab" id="headingThree" class="beplan-service-button">
 							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 								<div class="beplan-service editorial ">
@@ -154,7 +180,7 @@
 
 		<!-- seccion2 our works -->
 		<section class="beplan-section-color row ">
-			<div class="beplan-section-tit col-md-8 col-md-offset-2">
+			<div class="beplan-section-tit col-md-10 col-md-offset-2">
 				<h1>Proyectos realizados</h1>
 				<p>Para nosotras nos llena el <i class="far fa-heart"></i> trabajar para cumplir tus metas</p>
 			</div>
@@ -195,7 +221,7 @@
 	<section class="beplan-section row">
 		<div class="beplan-section-tit col-md-8 col-md-offset-2">
 			<h1>Nuestros clientes</h1>
-			<p>Depositamos nuestro mayor esfuerzo y dedicación a ellos <i class="far fa-smile-beam"></i></p>
+			<p>Depositamos nuestro mayor esfuerzo y dedicación a ellos </p>
 		</div>
 
 
@@ -217,7 +243,7 @@
 		<div class="row">
 		  <div class="col-sm-6 col-md-3 col-md-offset-2">
 		    <div class="thumbnail">
-		      <img src="..." alt="...">
+		      <img src="#" alt="...">
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
@@ -228,7 +254,7 @@
 
 		  <div class="col-sm-6 col-md-3">
 		    <div class="thumbnail">
-		      <img src="..." alt="...">
+		      <img src="#" alt="...">
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
@@ -240,7 +266,7 @@
 
 		  <div class="col-sm-6 col-md-3">
 		    <div class="thumbnail">
-		      <img src="..." alt="...">
+		      <img src="#" alt="...">
 		      <div class="caption">
 		        <h3>Thumbnail label</h3>
 		        <p>...</p>
@@ -253,12 +279,12 @@
 
 <!-- 	seccion5 formulario contacto -->
 		<section class="beplan-section-color2 row">
-			<div class="beplan-section-tit col-md-8 col-md-offset-2">
+			<div class="beplan-section-tit col-md-10 col-md-offset-2">
 				<h1>Alguna duda?</h1>
 				<p>Escríbenos para saber en qué te podemos ayudar.</p>
 			</div>
-			<div class="col-md-12 beplan-section-form">
-				<div class="col-md-5 col-md-offset-2 ">
+			<div class="col-md-8 col-md-offset-2 beplan-section-form row">
+				<div class="col-md-4">
 					<form>
 					  <div class="form-group">
 					    <label for="exampleInputEmail1">Email address</label>
@@ -285,13 +311,11 @@
 
 		</section>
 
+	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</body>
 
 </html>
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>

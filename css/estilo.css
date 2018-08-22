@@ -4,7 +4,7 @@
 .menu_beplan {
   width: 100px;
   background-color: #252525;
-  height: 20vh;
+  height: 110px;
   position: fixed;
   text-align: center;
   display: flex;
@@ -37,7 +37,36 @@
 a.menu-ico {
 	text-decoration: none;
 }
+.navbar-default {
+	 background-color: transparent;
+     border-color: transparent; 
+}
+.nav>li>a:focus, .nav>li>a:hover {
+	text-decoration: none;
+    background-color: #2b2b2b;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	background-color: #252525;
+    border-color: #6767ff;
+}
+.navbar-nav>li>a {
+	padding:0;
+}
+.dropdown-menu { 
+	background-color: rgba(62, 62, 62, 0.8);
+}
 
+.dropdown-menu>li>a {
+	color: #ffffff;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: transparent;
+}
+.dropdown-toggle.menu-ico.flex {
+	display: flex;
+}
 /*seccion slide*/
 
 .beplan-slide {
@@ -108,8 +137,14 @@ h1.titulos-beplan {
 	font-weight: 300;
 }
 .beplan-service img {
+	pointer-events: none;
 	width: 150px;
 }
+
+.beplan-service h2 {
+	pointer-events: none;
+}
+
 	.corporativo {
 		background-color: #84ccff;
 	}
@@ -123,7 +158,7 @@ h1.titulos-beplan {
 .beplan-service-button :hover{
 	text-decoration: none;
 	transition:1s;
-    background-color: rgba(116,147,232,0.5);
+    background-color: #eaeaea;
 }
 .beplan-service h2 {
 	color: #fff;
@@ -176,4 +211,19 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position: right;
 	height: auto;
+}
+
+@media (max-width: 767px) {
+	body {padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
+	.navbar-nav .open .dropdown-menu { position: absolute; }
+	.collapse {display: block;}
+	.navbar-nav .open .dropdown-menu {background-color: rgba(62, 62, 62, 0.9);}
+	.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {padding: 9px 27px 5px 25px;}
+	.flex {display: flex;}
+	.beplan-service-panel {margin-bottom: 30px;}
+	.beplan-section-tit { padding: 0; }
+	.beplan-section-tit h1 { font-size: 1.5em; }
+	.beplan-section-tit p { padding: 15px 15px;}
+	.logo-beplan {width: 80%;}
+	.beplan-section-form {padding: 20px 20px;}
 }
