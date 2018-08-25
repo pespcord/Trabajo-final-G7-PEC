@@ -212,6 +212,10 @@ a:hover {
 	background-position: right;
 	height: auto;
 }
+.beplan-section-footer {
+	background-color: #252525;
+	height: 200px;
+}
 
 @media (max-width: 767px) {
 	body {padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
