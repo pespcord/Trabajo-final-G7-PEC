@@ -268,7 +268,8 @@ a:focus, a:hover {
 }
 
 .thumbnail {
-	
+	padding: 15px;
+	border: 0;
 }
 
 @media (max-width: 767px) {
