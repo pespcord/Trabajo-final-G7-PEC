@@ -13,6 +13,7 @@
   z-index: 2;
 }
 
+h1.logo-beplan 
 .menu-ico {
 	display: flex;
 	flex-direction: column;
@@ -82,10 +83,10 @@ a.menu-ico {
 	background-image: url(../img/beplan-slide1.jpg);
 }
 .carrusel-foto-2 {
-	background-image: url(../img/beplan-slide1.jpg);
+	background-image: url(../img/beplan-slide2.jpg);
 }
 .carrusel-foto-3 {
-	background-image: url(../img/beplan-slide1.jpg);
+	background-image: url(../img/beplan-slide3.jpg);
 }
 .carrusel-foto-1, .carrusel-foto-2, .carrusel-foto-3 {
 	min-height: 600px;
@@ -177,6 +178,7 @@ a:hover {
 	background-color: #eaeaea;
 	padding: 34px 0 0 56px;
     line-height: 39px;
+    width: 98%;
 }
 .triangulo{
 	 width: 0;
@@ -215,6 +217,58 @@ a:hover {
 .beplan-section-footer {
 	background-color: #252525;
 	height: 200px;
+}
+
+/*estilo carrusel de clientes*/
+.beplan-margin-top {
+	margin-top: 60px;
+}
+.beplan-btn {
+	background-color: #000;
+	color: #fff;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding: 15px 100px;
+	font-family: 'Raleway', sans-serif;
+}
+.beplan-btn:hover{
+	color: #63c9de;
+	transition: 1s;
+	background-color: #2d2d2d;
+}
+
+.belpan-btn-padding {
+	padding: 40px 0 0 0;
+	text-align: center;
+}
+.fas.fa-arrow-right{
+	color: #63c9de;
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+a:focus, a:hover {
+	    color: none;
+    text-decoration: none;
+}
+
+
+/*blog*/
+
+.caption h3{
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px
+}
+.caption p{
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	line-height: 30px
+}
+
+.thumbnail {
+	
 }
 
 @media (max-width: 767px) {
