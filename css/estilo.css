@@ -67,6 +67,7 @@ a.menu-ico {
 }
 .dropdown-toggle.menu-ico.flex {
 	display: flex;
+	flex-direction: column;
 }
 /*seccion slide*/
 
@@ -213,10 +214,11 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position: right;
 	height: auto;
+	padding: 40px 0;
 }
 .beplan-section-footer {
 	background-color: #252525;
-	height: 200px;
+	height: 300px;
 }
 
 /*estilo carrusel de clientes*/
@@ -271,6 +273,29 @@ a:focus, a:hover {
 	padding: 15px;
 	border: 0;
 }
+.beplan-form {
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+
+}
+.logo-beplan-footer {
+	    width: 30%;
+    padding-top: 60px;
+}
+h3.bajada-beplan {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.mapa {
+	    margin-top: 28px;
+    border: 1px solid #6767ff;
+    padding: 7px;
+}
 
 @media (max-width: 767px) {
 	body {padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
@@ -281,8 +306,9 @@ a:focus, a:hover {
 	.flex {display: flex;}
 	.beplan-service-panel {margin-bottom: 30px;}
 	.beplan-section-tit { padding: 0; }
-	.beplan-section-tit h1 { font-size: 1.5em; }
+	.beplan-section-tit h1 { font-size: 2em; }
 	.beplan-section-tit p { padding: 15px 15px;}
 	.logo-beplan {width: 80%;}
 	.beplan-section-form {padding: 20px 20px;}
+	.beplan-form {color: #fff;}
 }
