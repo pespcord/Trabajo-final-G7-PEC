@@ -205,6 +205,12 @@ a:hover {
 	background-color: #f7f4f4;
 	padding: 0 0 60px 0;
 }
+
+.beplan-section-color-page {
+	background-color: #f7f4f4;
+}
+
+
 .beplan-section-color2 {
 	background-color: #dde6ff;
 	padding: 0 0 60px 0;
@@ -353,6 +359,15 @@ p.footer-beplan {
 }
 .blanco {
 	background-color: #fff;
+    margin-top: -160px;
+    height: auto;
+    margin-bottom:100px;
+
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
 @media (max-width: 767px) {
 	body {padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
@@ -369,4 +384,5 @@ p.footer-beplan {
 	.beplan-section-form {padding: 20px 20px;}
 	.beplan-form {color: #fff;}
 	.beplan-section-footer {height: 100vh;}
+	.beplan-page {display: block;}
 }
