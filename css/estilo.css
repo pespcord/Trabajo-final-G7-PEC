@@ -230,7 +230,7 @@ a:hover {
 	color: #fff;
 	font-size: 1em;
 	text-transform: uppercase;
-	padding: 15px 100px;
+	padding: 15px 80px;
 	font-family: 'Raleway', sans-serif;
 }
 .beplan-btn:hover{
@@ -289,12 +289,67 @@ h3.bajada-beplan {
 	font-weight: lighter;
 	font-size: 12px;
 	text-transform: uppercase;
+
+}
+
+.beplan-footer-padding {
+		padding-top: 60px;
 }
 
 .mapa {
 	    margin-top: 28px;
-    border: 1px solid #6767ff;
+  /*  border: 1px solid #6767ff;*/
     padding: 7px;
+}
+.beplan-phone {
+	display: flex;
+	    padding-top: 22px;
+}
+
+.fas.fa-mobile-alt {
+	color: #7493e8;
+	font-size: 2em;
+}
+.beplan-phone-numbers {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	padding-left: 20px;
+
+}
+.fas.fa-comments{
+	color: #84ccff;
+	font-size: 2em;
+}
+.row {
+	margin-right: 0; 
+  margin-left: 0; 
+}
+p.footer-beplan {
+	color: #666;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	font-size: 10px;
+}
+.beplan-phone-numbers  a{
+	color: #fff;
+
+}
+.beplan-phone-numbers  a:hover{
+	color: #63c9de;
+	transition: 1s;
+
+}
+
+.beplan-rs a{
+	color: #fff;
+    font-size: 20px;
+}
+.beplan-rs a:hover{
+	color: #63c9de;
+	transition: 1s;
+
+
 }
 
 @media (max-width: 767px) {
@@ -311,4 +366,5 @@ h3.bajada-beplan {
 	.logo-beplan {width: 80%;}
 	.beplan-section-form {padding: 20px 20px;}
 	.beplan-form {color: #fff;}
+	.beplan-section-footer {height: 100vh;}
 }
