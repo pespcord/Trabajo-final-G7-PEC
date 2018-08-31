@@ -4,3 +4,5 @@
 _user:_ beplan-paty
 
 _pass:_ *H422hS)deEDQvTAaA
+
+## Repositorio Github en wordpress: https://github.com/pespcord/Trabajo-final-g7-wp-PEC 
